@@ -8,10 +8,27 @@
 -**substitution.c:** a program that implements a substitution cipher using a 26-character key. 
 
 ### Python Programs
-- **dna.py:** a program that identifies a person based on their DNA. It takes two command-line arguments; a database (CSV file) containing peoples names and their DNA information, 
-and a text file containing the DNA sequence to identify.
+- **dna:** a program that identifies a person based on their DNA. It takes two command-line arguments; a database (CSV file) containing peoples names and their DNA information, and a text file containing the DNA sequence to identify.
     ###### Sample Output:
     > $ python dna.py databases/large.csv sequences/5.txt\
+    
     > Lavender
+- **houses:** a program that imports student data from a CSV file into a SQLite database, and then queries that database to produce class rosters.
+    ###### Sample Output:
+    > $ python import.py characters.csv\
+    > $ python roster.py Gryffindor
+
+    > Lavender Brown, born 1979\
+    > Colin Creevey, born 1981\
+    > Seamus Finnigan, born 1979\
+    > Hermione Jean Granger, born 1979\
+    > Neville Longbottom, born 1980\
+    > Parvati Patil, born 1979\
+    > Harry James Potter, born 1980\
+    > Dean Thomas, born 1980\
+    > Romilda Vane, born 1981\
+    > Ginevra Molly Weasley, born 1981\
+    > Ronald Bilius Weasley, born 1980
+
 - **cash.py:** the same cash program above but in python
 - **readability.py:** the same readability program above but in python 
